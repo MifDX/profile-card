@@ -6,24 +6,19 @@ body {
 .profile-card {
   margin: 0 auto;
   max-width: 200px;
-  object-fit: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2px;
+  padding: 15px;
 }
 
 .profile-card__avatar {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-
+  object-fit: cover;
 }
 
 .profile-card--featured {
   border: 10px solid gold;
-}
-
-.profile-photo {
-  width: 100%;
 }
